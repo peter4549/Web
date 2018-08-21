@@ -1,0 +1,24 @@
+<!태그, parent tag & child tag 같이 쓰이는 태그들이 존재. 부모와 자식이 통상적을 함께 사용된다.>
+<!DOCTYPE html> 
+<html> 
+<head>
+<title>HTML Tutorial by SJK</title> 
+<meta charset="utf-8">
+<h1>HTML</h1>
+</head> 
+<body>
+unordered list.
+<ul><! 'li'와 같은 태그들은 어디서 부터 어디까지가 연관된 항목인지 Grouping 하는 것이 좋다. 따라서 그 elements들을 묶을 수 있는 태그가 필요하며, 사용되는 것이 'ul, ol' Tag이다. 이들은 'li' Tag의 부모 태그로써 역할한다. 자식 태그는 부모 태그를, 부모 태그는 자식 태그를 갖는다. >
+	<strong><li>HTML</li></strong>
+	<strong><li>CSS</li></strong>
+	<strong><li>JAVA Script</li></strong>
+</ul> 
+order list.
+<ol><! 'ol' Tag에서 li Tag를 사용 시, 다른 태그(ex. strong...)안에 포함되는 경우, 그 태그 내부에서 순서대로 넘버링 된다. 아래처럼 작성하지 않고 각 'li' Tag마다 'strong' Tag로 포함 시키는 경우, 각 항목마다 처음부터 넘버링하므로, 아래 예제의 경우, 1.Red Velvet 1.Aragaki Yui, 이런 식으로 출력된다.>
+	<strong><li>Red Velvet</li>
+	<li>Aragaki Yui</li></strong>
+</ol>
+<br> 리스트 태그들은 ('ol','ul') Tag와 'li' Tag 두 종류가 함께 사용된다. 테이블 태그의 경우 세 종류의 태그가 통상 함께 사용된다.	
+ 
+</body> 
+</html> 
